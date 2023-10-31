@@ -1,22 +1,24 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 import Home from './components/Home';
 import Trending from './components/Trending';
 import CoinInsight from './components/CoinInsight';
 import About from './components/About';
+import Navigationbar from './components/Navigationbar';
+
+import './app.css'
 
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Navigationbar />
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/coininsight" element={<CoinInsight />} />
           <Route path="/trendings" element={<Trending />} />
           <Route path="/developer" element={<About />} />
       </Routes>
-    </Router>
     </div>
   );
 }

@@ -1,10 +1,10 @@
 import React from 'react';
-import Navigationbar from './Navigationbar';
+// import Navigationbar from './Navigationbar';
 
 const About = () => {
   return (
     <div>
-      <Navigationbar />
+      
     </div>
   )
 }
