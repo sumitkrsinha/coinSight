@@ -10,9 +10,9 @@ const TrendingCoins = ({image, name, symbol, price, rank}) => {
           <h1>{name}</h1>
         </div>
         <div className="coin-data">
-          <p className='coin-symbol'>{symbol}</p>
-          <p className="coin-price">{price.toFixed(5)}btc</p>
-          <p className="market_cap_rank">Rank:{rank}</p>
+          <p className='t-coin-symbol'>{symbol}</p>
+          <p className="coin-price t-coin-price">{price} btc</p>
+          <p className="market_cap_rank"><b>Rank:</b> {rank}</p>
         </div>
       </div>
     </div>

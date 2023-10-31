@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     width: 80%;
-    
+    /* flex-direction: column; */
 }
 
 .coin-row{
@@ -39,6 +39,10 @@
     text-transform: uppercase;
 }
 
+.t-coin-symbol{
+    text-transform: uppercase;
+}
+
 .coin-data{
     display: flex;
     align-items: center;
@@ -56,6 +60,10 @@
 
 @media (max-width: 768px) {
     .coin-symbol{
+        display: none;
+    }
+
+    .t-coin-price{
         display: none;
     }
 

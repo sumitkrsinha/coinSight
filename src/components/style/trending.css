@@ -4,13 +4,23 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* height: 100vh; */
 }
-.coinsights-container{
+/* .coinsights-container{
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+} */
+
+.t-heading{
+    width: 100%;
+    padding: 25px 0 15px 25px ;
+    text-decoration: underline;
+    font-weight: 500;
+    font-size: larger;
+    /* color: #007BFF; */
 }
 
 .display_coin{
@@ -19,4 +29,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* height: 88vh; */
+}
+
+@media (max-width: 556px) {
+    .t-heading{
+        display: flex;
+        justify-content: center;
+        padding-left: 0;
+    }
 }

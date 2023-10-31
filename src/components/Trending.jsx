@@ -21,6 +21,7 @@ const Trending = () => {
 
   return (
     <div className='trendingcoins-container coinsights-container'>
+      <span className="t-heading">Today's trending coins:</span>
 
       <div className="display_coin">
         {trendingcoin.map(coin => {

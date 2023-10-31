@@ -38,11 +38,11 @@ const Navigationbar = () => {
             Trendings
           </span>
         </Link>
-        <Link to="/about" className="links">
+        {/* <Link to="/about" className="links">
           <span className="links" onClick={close}>
             Developer
           </span>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );
